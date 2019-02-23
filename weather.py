@@ -5,7 +5,7 @@ import sys
 from pprint import pprint
 
 
-appId = '351eaa3b51487f75f32ab6c2a54e3621'
+appId = ''
 
 global city
 kokoviesti = [] #Results of the request are saved this list
