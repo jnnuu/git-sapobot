@@ -36,5 +36,3 @@ def printResults(city):
 		else:
 			print(rivi)
 			kokoviesti.append(rivi)
-
-makeRequest(city)
