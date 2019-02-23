@@ -10,7 +10,6 @@ appId = ''
 global city
 kokoviesti = [] #Results of the request are saved this list
 
-city = "Espoo"
 
 def makeRequest(city):
 	r = requests.get('http://api.openweathermap.org/data/2.5/forecast?q=' + city + '&APPID=' + appId + '&units=metric')
