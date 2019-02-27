@@ -30,6 +30,7 @@ def looper():
 		server.sendmail(sender_email, receiver_email, message)
 		print('email sent') 
 		server.quit()
+	weather.kokoviesti = []  #Reseting the array
 	time.sleep(86400)	 #Sleeping for 86400 seconds = 1 day
 
 while (True):
